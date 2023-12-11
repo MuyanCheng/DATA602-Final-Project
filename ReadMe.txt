@@ -9,7 +9,7 @@ Final_Buildingmodel.ipynb is used to build a model and train the model. It:
 	uses AdamW to optimize this neural network with learning_rate = 0.02 and learning rate decay.
 	trains this model for 2000 epoches, creates the plots to show how MSE loss changes over epoches.
 	save the model parameters in model_dict.pt file.
-Final_MakePrediction.ipynb is used to make predictions over the test data full_test_data.csv. It:
+Final_MakePrediction&Dashboard.ipynb is used to make predictions over the test data full_test_data.csv and create a dashboard. It:
 	creates a function to preprocesses the test data.
 	builds a neural network and load the parameters from model_dict.pt.
 	uses this model to make predictions on the test data.
