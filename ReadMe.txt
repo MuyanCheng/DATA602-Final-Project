@@ -1,3 +1,10 @@
+get_id.py and Get_ID_Cleaned.jpynb are the same in concept but I have removed all the unnessary code from get_id.py to obtain Get_ID_Cleaned.jpynb
+	Get the list of zip code from www.ciclt.net and store them in a list
+	Use the list of Zip codes to obtain the list of Vehicle IDs
+	Remove all the dupilcated vehicle IDs and store them in a txt file
+detail.py and detail_Cleaned.jpynb are again, the same in concept and detail_Cleaned.jpynb is the cleaned version of detail.py
+	Read in the txt file containing all the vehicle IDs
+	Write the details into a csv file to be processed. 
 The raw training data is stored in these csv files: data1.csv, data2.csv, data3.csv, data4.csv, data5.csv, data6.csv.
 Final_Preprocessing.ipynb is used to preprocess the this raw data. During preprocessing, it:
 	performs EDA on the dataset.
